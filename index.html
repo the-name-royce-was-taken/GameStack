@@ -11,8 +11,8 @@
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="/images/ico.ico" type="imagex-icon">
-        <link rel="stylesheet" href="/storage/css/index.css">
+        <link rel="shortcut icon" href="images/ico.ico" type="imagex-icon">
+        <link rel="stylesheet" href="storage/css/index.css">
         <title>Home | Seraph</title>
 
         <meta name="description" content="an open source games site hosting 500+ games, useful utilities, powerful settings + a clean user interface">
@@ -25,7 +25,7 @@
     
      <div id="blackout"></div>
      <div id="updPopup">
-        <img src="/images/other/v10image.jpg" style="width: 90%;">
+        <img src="images/other/v10image.jpg" style="width: 90%;">
         <br><br>
         <h2 style="font-size: 28px; text-decoration: underline;">version 10 / patch notes</h2>
 
@@ -148,21 +148,21 @@
 
           <div class="button-container">
               <div class="gamesbutton" onclick="window.location='games/index.html';">
-                  <img src="/images/other/controller.png">
+                  <img src="images/other/controller.png">
                   <div class="button-text">
                       <p>games</p>
                   </div>
               </div>
           
               <div class="gamesbutton" onclick="window.location='apps/index.html';">
-                  <a href="apps/index.html"><img src="/images/other/apps.png"></a>
+                  <a href="apps/index.html"><img src="images/other/apps.png"></a>
                   <div class="button-text">
                       <p>apps</p>
                   </div>
               </div>
 
               <div class="gamesbutton" onclick="window.location='settings.html';">
-                <a href="settings.html"><img src="/images/other/settings.png"></a>
+                <a href="settings.html"><img src="images/other/settings.png"></a>
                 <div class="button-text">
                     <p>settings</p>
                 </div>
@@ -183,7 +183,7 @@
       <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
-                navigator.serviceWorker.register('/offline-worker.js').then(function(registration) {
+                navigator.serviceWorker.register('./offline-worker.js').then(function(registration) {
                     console.log('service worker initalised! scope:', registration.scope);
         
                     navigator.serviceWorker.addEventListener('message', function(event) {
@@ -274,8 +274,8 @@
         });
         </script>    
 
-      <script src="/storage/js/cloak.js"></script>
-      <script src="/storage/js/theme.js"></script>
-      <script src="/storage/js/cookie.js"></script>
+      <script src="storage/js/cloak.js"></script>
+      <script src="storage/js/theme.js"></script>
+      <script src="storage/js/cookie.js"></script>
   </body>
 </html>
