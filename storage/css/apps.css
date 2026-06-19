@@ -1,4 +1,4 @@
-@import url('GameStack/storage/css/themes.css');
+@import url('/GameStack/storage/css/themes.css');
 
 :root {
     --background-image: url('/GameStack/images/backgrounds/seraph/appsbg.jpg');
