@@ -2,7 +2,7 @@
     var e, t = {
         77: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/rotation_axis_x_positive.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/rotation_axis_x_positive.svg"
         }
         ,
         202: (e, t, n) => {
@@ -21,7 +21,7 @@
                     (0,
                     l.GG)(this, r, t, "f"),
                     this.className = "button",
-                    this.innerHTML = '<img class="button-icon" src="images/copy.svg"> ',
+                    this.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/copy.svg"> ',
                     (0,
                     l.GG)(this, a, document.createTextNode(t.get("Copy")), "f"),
                     this.append((0,
@@ -91,7 +91,7 @@
         ,
         228: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_diamonds.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_diamonds.svg"
         }
         ,
         243: (e, t, n) => {
@@ -544,12 +544,12 @@
         ,
         493: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/empty.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/empty.svg"
         }
         ,
         516: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/arrow_down.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/arrow_down.svg"
         }
         ,
         540: e => {
@@ -564,12 +564,12 @@
         ,
         542: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/step_back.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/step_back.svg"
         }
         ,
         560: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern.svg"
         }
         ,
         579: (e, t, n) => {
@@ -643,7 +643,7 @@
                     h.appendChild(d);
                     const u = document.createElement("button");
                     u.className = "button",
-                    u.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
+                    u.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/back.svg"> ',
                     u.append(document.createTextNode(r.get("Back"))),
                     u.addEventListener("click", ( () => {
                         a.playUIClick(),
@@ -666,7 +666,7 @@
                     (0,
                     i.gn)(this, S, "f").className = "button right",
                     (0,
-                    i.gn)(this, S, "f").innerHTML = '<img class="button-icon" src="images/import.svg"> ',
+                    i.gn)(this, S, "f").innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/import.svg"> ',
                     (0,
                     i.gn)(this, S, "f").append(document.createTextNode(r.get("Import"))),
                     (0,
@@ -1068,52 +1068,52 @@
             u.patterns = Object.freeze(( () => {
                 const e = [];
                 return e[0] = {
-                    url: "images/pattern_stripe.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_stripe.svg"
                 },
                 e[1] = {
-                    url: "images/pattern_stripe2.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_stripe2.svg"
                 },
                 e[2] = {
-                    url: "images/pattern_stripe3.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_stripe3.svg"
                 },
                 e[3] = {
-                    url: "images/pattern_double_stripe.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_double_stripe.svg"
                 },
                 e[4] = {
-                    url: "images/pattern_edge.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_edge.svg"
                 },
                 e[5] = {
-                    url: "images/pattern_half.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_half.svg"
                 },
                 e[6] = {
-                    url: "images/pattern_arrow.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_arrow.svg"
                 },
                 e[7] = {
-                    url: "images/pattern_circle.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_circle.svg"
                 },
                 e[8] = {
-                    url: "images/pattern_horseshoe.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_horseshoe.svg"
                 },
                 e[9] = {
-                    url: "images/pattern_needle.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_needle.svg"
                 },
                 e[10] = {
-                    url: "images/pattern_triangle.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_triangle.svg"
                 },
                 e[11] = {
-                    url: "images/pattern_diamonds.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_diamonds.svg"
                 },
                 e[12] = {
-                    url: "images/pattern_zigzag.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_zigzag.svg"
                 },
                 e[13] = {
-                    url: "images/pattern_circles.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_circles.svg"
                 },
                 e[14] = {
-                    url: "images/pattern_gradient.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_gradient.svg"
                 },
                 e[15] = {
-                    url: "images/pattern_outline.svg"
+                    url: "/GameStack/games/polytrack/images/pattern_outline.svg"
                 },
                 e.map((e => Object.freeze(e)))
             }
@@ -1193,17 +1193,17 @@
         ,
         798: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_stripe2.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_stripe2.svg"
         }
         ,
         813: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/winter.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/winter.svg"
         }
         ,
         820: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/exhaust.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/exhaust.svg"
         }
         ,
         832: (e, t, n) => {
@@ -1268,12 +1268,12 @@
         ,
         853: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/icon.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/icon.svg"
         }
         ,
         858: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/discord.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/discord.svg"
         }
         ,
         927: (e, t, n) => {
@@ -1511,7 +1511,7 @@
         ,
         1014: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/step_forward.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/step_forward.svg"
         }
         ,
         1055: (e, t, n) => {
@@ -1647,7 +1647,7 @@
                 }
                 static initResources(e) {
                     e.addResource();
-                    const t = (new u.Tap).load("images/smoke.png", ( () => {
+                    const t = (new u.Tap).load("/GameStack/games/polytrack/images/smoke.png", ( () => {
                         e.loadedResource()
                     }
                     ));
@@ -1791,7 +1791,7 @@
                     u.set(this, 0),
                     p.set(this, new Map),
                     (0,
-                    r.GG)(this, h, new Worker("simulation_worker.bundle.js"), "f"),
+                    r.GG)(this, h, new Worker("GameStack/games/polytrack/simulation_worker.bundle.js"), "f"),
                     null != t && null != n ? ((0,
                     r.GG)(this, c, t, "f"),
                     n.hasLoaded() ? (0,
@@ -2354,12 +2354,12 @@
         ,
         1333: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/helmet.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/helmet.svg"
         }
         ,
         1411: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_horseshoe.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_horseshoe.svg"
         }
         ,
         1566: (e, t, n) => {
@@ -2653,12 +2653,12 @@
         ,
         1705: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/desert.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/desert.svg"
         }
         ,
         1719: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/reset.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/reset.svg"
         }
         ,
         1728: (e, t, n) => {
@@ -2811,7 +2811,7 @@
                         return this.decoderPending;
                     const e = "object" != typeof WebAssembly || "js" === this.decoderConfig.type
                       , t = [];
-                    return e ? t.push(this._loadLibrary("draco_decoder.js", "text")) : (t.push(this._loadLibrary("draco_wasm_wrapper.js", "text")),
+                    return e ? t.push(this._loadLibrary("draco_decoder", "text")) : (t.push(this._loadLibrary("draco_wasm_wrapper", "text")),
                     t.push(this._loadLibrary("draco_decoder.wasm", "arraybuffer"))),
                     this.decoderPending = Promise.all(t).then((t => {
                         const n = t[0];
@@ -3030,22 +3030,22 @@
         ,
         1734: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/test.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/test.svg"
         }
         ,
         1758: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/desert_colored.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/desert_colored.svg"
         }
         ,
         1784: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/cancel.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/cancel.svg"
         }
         ,
         1820: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/paper.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/paper.svg"
         }
         ,
         1882: (e, t, n) => {
@@ -3085,12 +3085,12 @@
         ,
         1925: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/copy.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/copy.svg"
         }
         ,
         1936: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/erase.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/erase.svg"
         }
         ,
         2108: (e, t, n) => {
@@ -3311,7 +3311,7 @@
         ,
         2175: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/random.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/random.svg"
         }
         ,
         2203: (e, t, n) => {
@@ -3511,7 +3511,7 @@
         ,
         2207: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/arrow_up.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/arrow_up.svg"
         }
         ,
         2208: (e, t, n) => {
@@ -3569,7 +3569,7 @@
         ,
         2319: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/delete.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/delete.svg"
         }
         ,
         2387: (e, t, n) => {
@@ -3601,27 +3601,27 @@
         ,
         2493: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/overlapping_enabled.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/overlapping_enabled.svg"
         }
         ,
         2553: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/state_invalid.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/state_invalid.svg"
         }
         ,
         2588: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_half.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_half.svg"
         }
         ,
         2646: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/multiplayer.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/multiplayer.svg"
         }
         ,
         2709: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/custom_tracks.jpg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/custom_tracks.jpg"
         }
         ,
         2825: (e, t, n) => {
@@ -7668,17 +7668,17 @@
         ,
         3144: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/undo.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/undo.svg"
         }
         ,
         3223: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pending.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pending.svg"
         }
         ,
         3375: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_stripe3.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_stripe3.svg"
         }
         ,
         3476: (e, t, n) => {
@@ -7723,7 +7723,7 @@
         ,
         3518: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/grid_large.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/grid_large.svg"
         }
         ,
         3571: (e, t, n) => {
@@ -7770,37 +7770,37 @@
         ,
         3755: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/share.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/share.svg"
         }
         ,
         3844: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_double_stripe.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_double_stripe.svg"
         }
         ,
         3849: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/timer.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/timer.svg"
         }
         ,
         3895: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/rotation_axis_z_negative.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/rotation_axis_z_negative.svg"
         }
         ,
         3901: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/summer.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/summer.svg"
         }
         ,
         3902: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/verified.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/verified.svg"
         }
         ,
         4055: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/paste.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/paste.svg"
         }
         ,
         4078: (e, t, n) => {
@@ -9039,7 +9039,7 @@
                         null != (0,
                         l.gn)(this, ye, "f").countryCode) {
                             const e = new Image;
-                            e.src = "images/countries/" + (0,
+                            e.src = "/GameStack/games/polytrack/images/countries/" + (0,
                             l.gn)(this, ye, "f").countryCode + ".svg?v=0.6.0-beta1-mp21",
                             e.addEventListener("load", ( () => {
                                 t.drawImage(e, 10, 10, r, n),
@@ -9627,7 +9627,7 @@
         ,
         4309: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/save.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/save.svg"
         }
         ,
         4344: (e, t, n) => {
@@ -9647,7 +9647,7 @@
         ,
         4411: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/rotation_axis_z_positive.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/rotation_axis_z_positive.svg"
         }
         ,
         4417: e => {
@@ -9689,22 +9689,22 @@
         ,
         4563: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/rotate.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/rotate.svg"
         }
         ,
         4593: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/reset_settings.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/reset_settings.svg"
         }
         ,
         4644: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_edge.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_edge.svg"
         }
         ,
         4724: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_stripe.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_stripe.svg"
         }
         ,
         4784: (e, t, n) => {
@@ -9939,19 +9939,19 @@
                                 n = "",
                                 a = (0,
                                 i.gn)(this, w, "f").get("Summer"),
-                                s = "images/summer.svg";
+                                s = "/GameStack/games/polytrack/images/summer.svg";
                                 break;
                             case Z.A.Winter:
                                 n = "winter",
                                 a = (0,
                                 i.gn)(this, w, "f").get("Winter"),
-                                s = "images/winter_colored.svg";
+                                s = "/GameStack/games/polytrack/images/winter_colored.svg";
                                 break;
                             case Z.A.Desert:
                                 n = "desert",
                                 a = (0,
                                 i.gn)(this, w, "f").get("Desert"),
-                                s = "images/desert_colored.svg"
+                                s = "/GameStack/games/polytrack/images/desert_colored.svg"
                             }
                             const o = document.createElement("div");
                             o.className = "group-title " + n,
@@ -9999,7 +9999,7 @@
                         let t = null;
                         !o && (t = le(s));
                         e.loading = "lazy",
-                        e.src = o || t || "images/preview.svg",
+                        e.src = o || t || "/GameStack/games/polytrack/images/preview.svg",
                     e.onerror = ( () => {
                         e.onerror = null,
                         re.push({
@@ -10024,13 +10024,13 @@
                 let g;
                 switch (r) {
                 case Z.A.Summer:
-                    g = "images/summer.svg";
+                    g = "/GameStack/games/polytrack/images/summer.svg";
                     break;
                 case Z.A.Winter:
-                    g = "images/winter.svg";
+                    g = "/GameStack/games/polytrack/images/winter.svg";
                     break;
                 case Z.A.Desert:
-                    g = "images/desert.svg"
+                    g = "/GameStack/games/polytrack/images/desert.svg"
                 }
                 const m = document.createElement("img");
                 m.className = "environment",
@@ -10047,7 +10047,7 @@
                 null != l) {
                     const e = document.createElement("button");
                     e.className = "delete-button",
-                    e.innerHTML = '<img src="images/erase.svg">',
+                    e.innerHTML = '<img src="/GameStack/games/polytrack/images/erase.svg">',
                     e.addEventListener("click", ( () => {
                         (0,
                         i.gn)(this, b, "f").playUIClick(),
@@ -10353,9 +10353,9 @@
                     });
                     const ae = document.createElement("button");
                     ae.className = "button",
-                    "cancel" == c ? (ae.innerHTML = '<img class="button-icon" src="images/erase.svg"> ',
+                    "cancel" == c ? (ae.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/erase.svg"> ',
                     ae.append(document.createTextNode((0,
-                    i.gn)(this, w, "f").get("Cancel")))) : (ae.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
+                    i.gn)(this, w, "f").get("Cancel")))) : (ae.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/back.svg"> ',
 	                    ae.append(document.createTextNode((0,
 	                    i.gn)(this, w, "f").get("Back")))),
 	                    ae.addEventListener("click", ( () => {
@@ -10395,11 +10395,11 @@
                     se.appendChild((0,
                     i.gn)(this, G, "f"));
                     const oe = document.createElement("img");
-                    oe.src = "images/search.svg",
+                    oe.src = "/GameStack/games/polytrack/images/search.svg",
                     se.appendChild(oe);
                     const le = document.createElement("button");
                     le.className = "button",
-                    le.innerHTML = '<img class="button-icon" src="images/import.svg"> ',
+                    le.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/import.svg"> ',
                     le.append(document.createTextNode((0,
                     i.gn)(this, w, "f").get("Import"))),
                     le.addEventListener("click", ( () => {
@@ -10677,14 +10677,14 @@
               , c = "/__proxy_vps__/"
               , h = i.l$.r;
             if (!Number.isSafeInteger(h) || h < 1)
-                throw new Error("package.json beta version property must be a positive integer");
+                throw new Error("packageon beta version property must be a positive integer");
             let d = "";
             o ? d = "-dev" : l && (d = "-beta" + h.toString());
             const u = i.rE + d
               , p = i.rE
               , f = i.l$.M;
             if (!Number.isSafeInteger(f) || f < 1)
-                throw new Error("package.json beta physicsVersion property must be a positive integer");
+                throw new Error("packageon beta physicsVersion property must be a positive integer");
             const g = f
         }
         ,
@@ -10948,7 +10948,7 @@
             });
             /**
  * @license
- * Copyright 2010-2025 Three.js Authors
+ * Copyright 2010-2025 Three Authors
  * SPDX-License-Identifier: MIT
  */
             const i = "182"
@@ -22895,7 +22895,7 @@
                         case "document":
                             return e.text().then((e => (new DOMParser).parseFromString(e, s)));
                         case "json":
-                            return e.json();
+                            return eon();
                         default:
                             if ("" === s)
                                 return e.text();
@@ -24163,32 +24163,32 @@
         ,
         4930: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/grid_small.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/grid_small.svg"
         }
         ,
         4942: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/redo.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/redo.svg"
         }
         ,
         5001: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/rotation_axis_x_negative.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/rotation_axis_x_negative.svg"
         }
         ,
         5010: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/winter_colored.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/winter_colored.svg"
         }
         ,
         5031: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/help.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/help.svg"
         }
         ,
         5051: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_circle.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_circle.svg"
         }
         ,
         5056: (e, t, n) => {
@@ -24273,12 +24273,12 @@
         ,
         5143: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_gradient.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_gradient.svg"
         }
         ,
         5148: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/checkpoint.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/checkpoint.svg"
         }
         ,
         5169: (e, t, n) => {
@@ -24671,12 +24671,12 @@
         ,
         5499: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/refresh.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/refresh.svg"
         }
         ,
         5577: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/invite.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/invite.svg"
         }
         ,
         5671: (e, t, n) => {
@@ -24948,22 +24948,22 @@
         ,
         5739: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/quit.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/quit.svg"
         }
         ,
         5769: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/state_pending.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/state_pending.svg"
         }
         ,
         5794: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/list.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/list.svg"
         }
         ,
         5798: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/rotation_axis_y_negative.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/rotation_axis_y_negative.svg"
         }
         ,
         5811: (e, t, n) => {
@@ -25486,17 +25486,17 @@
         ,
         5918: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/load.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/load.svg"
         }
         ,
         5945: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/music_on.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/music_on.svg"
         }
         ,
         5974: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_needle.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_needle.svg"
         }
         ,
         6005: (e, t, n) => {
@@ -25514,12 +25514,12 @@
         ,
         6027: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pin.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pin.svg"
         }
         ,
         6099: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/arrow_left.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/arrow_left.svg"
         }
         ,
         6104: (e, t, n) => {
@@ -25537,12 +25537,12 @@
         ,
         6150: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/arrow_right.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/arrow_right.svg"
         }
         ,
         6168: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/export.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/export.svg"
         }
         ,
         6223: (e, t, n) => {
@@ -25561,7 +25561,7 @@
         ,
         6244: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/state_verified.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/state_verified.svg"
         }
         ,
         6249: (e, t, n) => {
@@ -25592,7 +25592,7 @@
         ,
         6278: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/cut.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/cut.svg"
         }
         ,
         6314: e => {
@@ -25641,12 +25641,12 @@
         ,
         6366: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/apply.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/apply.svg"
         }
         ,
         6471: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_zigzag.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_zigzag.svg"
         }
         ,
         6546: (e, t, n) => {
@@ -26058,7 +26058,7 @@
         ,
         6557: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/blank_flag.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/blank_flag.svg"
         }
         ,
         6633: (e, t, n) => {
@@ -26160,7 +26160,7 @@
         ,
         6838: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/smoke.png"
+            e.exports = n.p + "/GameStack/games/polytrack/images/smoke.png"
         }
         ,
         6850: (e, t, n) => {
@@ -26950,22 +26950,22 @@
         ,
         7173: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/windowed.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/windowed.svg"
         }
         ,
         7213: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/music_off.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/music_off.svg"
         }
         ,
         7268: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/trophy.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/trophy.svg"
         }
         ,
         7404: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/car_thumbnail_placeholder.png"
+            e.exports = n.p + "/GameStack/games/polytrack/images/car_thumbnail_placeholder.png"
         }
         ,
         7415: (e, t, n) => {
@@ -27033,12 +27033,12 @@
         ,
         7498: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_arrow.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_arrow.svg"
         }
         ,
         7581: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/fullscreen.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/fullscreen.svg"
         }
         ,
         7659: e => {
@@ -27121,7 +27121,7 @@
         ,
         7727: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_outline.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_outline.svg"
         }
         ,
         7780: (e, t, n) => {
@@ -29366,7 +29366,7 @@
         ,
         7943: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_triangle.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_triangle.svg"
         }
         ,
         7980: (e, t, n) => {
@@ -29457,12 +29457,12 @@
         ,
         8115: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/community_tracks.jpg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/community_tracks.jpg"
         }
         ,
         8237: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/settings.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/settings.svg"
         }
         ,
         8330: e => {
@@ -29494,7 +29494,7 @@
         ,
         8358: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/overlapping_disabled.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/overlapping_disabled.svg"
         }
         ,
         8419: (e, t, n) => {
@@ -29972,27 +29972,27 @@
         ,
         8578: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pattern_circles.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pattern_circles.svg"
         }
         ,
         8635: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/video.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/video.svg"
         }
         ,
         8658: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/paint.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/paint.svg"
         }
         ,
         8718: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/search.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/search.svg"
         }
         ,
         8734: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/graph.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/graph.svg"
         }
         ,
         8739: (e, t, n) => {
@@ -30045,32 +30045,32 @@
         ,
         8787: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/back.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/back.svg"
         }
         ,
         8825: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/rims.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/rims.svg"
         }
         ,
         8875: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/clouds.jpg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/clouds.jpg"
         }
         ,
         8879: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/gavel.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/gavel.svg"
         }
         ,
         8889: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/editor.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/editor.svg"
         }
         ,
         8903: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/logo.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/logo.svg"
         }
         ,
         8928: (e, t, n) => {
@@ -30934,17 +30934,17 @@
         ,
         9027: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/customize.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/customize.svg"
         }
         ,
         9062: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/rotation_axis_y_positive.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/rotation_axis_y_positive.svg"
         }
         ,
         9077: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/import.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/import.svg"
         }
         ,
         9178: (e, t, n) => {
@@ -30975,12 +30975,12 @@
         ,
         9236: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/play.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/play.svg"
         }
         ,
         9391: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/official_tracks.jpg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/official_tracks.jpg"
         }
         ,
         9437: (e, t, n) => {
@@ -39387,7 +39387,7 @@
         ,
         9570: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/preview.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/preview.svg"
         }
         ,
         9681: (e, t, n) => {
@@ -39604,7 +39604,7 @@
         ,
         9708: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/pause.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/pause.svg"
         }
         ,
         9782: (e, t, n) => {
@@ -39622,7 +39622,7 @@
         ,
         9809: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "images/checkmark.svg"
+            e.exports = n.p + "/GameStack/games/polytrack/images/checkmark.svg"
         }
     }, n = {};
     function i(e) {
@@ -40237,7 +40237,7 @@
                 (0,
                 R.gn)(this, he, "f").appendChild(i);
                 const r = document.createElement("img");
-                r.src = "images/checkpoint.svg",
+                r.src = "/GameStack/games/polytrack/images/checkpoint.svg",
                 i.appendChild(r),
                 (0,
                 R.GG)(this, de, document.createElement("span"), "f"),
@@ -41101,7 +41101,7 @@
                 R.gn)(this, kt, "f"));
                 const o = document.createElement("button");
                 o.className = "camera",
-                o.innerHTML = '<img src="images/preview.svg">',
+                o.innerHTML = '<img src="/GameStack/games/polytrack/images/preview.svg">',
                 o.addEventListener("touchstart", ( () => {
                     (0,
                     R.gn)(this, Et, "m", Rt).call(this),
@@ -41121,7 +41121,7 @@
                 (0,
                 R.gn)(this, Mt, "f").className = "reset",
                 (0,
-                R.gn)(this, Mt, "f").innerHTML = '<img src="images/reset.svg">',
+                R.gn)(this, Mt, "f").innerHTML = '<img src="/GameStack/games/polytrack/images/reset.svg">',
                 (0,
                 R.gn)(this, Mt, "f").addEventListener("touchstart", ( () => {
                     t.playUIClick(),
@@ -41146,17 +41146,17 @@
                 (0,
                 R.gn)(this, kt, "f").appendChild(l);
                 const c = document.createElement("div");
-                c.innerHTML = '<img src="images/arrow_up.svg">';
+                c.innerHTML = '<img src="/GameStack/games/polytrack/images/arrow_up.svg">';
                 const h = document.createElement("div");
-                h.innerHTML = '<img src="images/arrow_down.svg">';
+                h.innerHTML = '<img src="/GameStack/games/polytrack/images/arrow_down.svg">';
                 const d = document.createElement("div");
                 d.className = "right-container",
                 (0,
                 R.gn)(this, kt, "f").appendChild(d);
                 const u = document.createElement("div");
-                u.innerHTML = '<img src="images/arrow_left.svg">';
+                u.innerHTML = '<img src="/GameStack/games/polytrack/images/arrow_left.svg">';
                 const p = document.createElement("div");
-                p.innerHTML = '<img src="images/arrow_right.svg">',
+                p.innerHTML = '<img src="/GameStack/games/polytrack/images/arrow_right.svg">',
                 n.getSettingBoolean(P.A.TouchSteeringSide) ? (l.appendChild(c),
                 l.appendChild(h),
                 d.classList.add("steering"),
@@ -42755,7 +42755,7 @@
                 R.gn)(this, Qn, "f").appendChild(m);
                 const A = document.createElement("button");
                 if (A.className = "button",
-                A.innerHTML = '<img class="button-icon" src="images/quit.svg"> ',
+                A.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/quit.svg"> ',
                 A.append(document.createTextNode(n.get("Exit"))),
                 A.addEventListener("click", ( () => {
                     t.playUIClick(),
@@ -42768,7 +42768,7 @@
                 null == s) {
                     const e = document.createElement("button");
                     if (e.className = "button",
-                    e.innerHTML = '<img class="button-icon" src="images/preview.svg"> ',
+                    e.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/preview.svg"> ',
                     e.append(document.createTextNode(n.get("Watch"))),
                     e.addEventListener("click", ( () => {
                         t.playUIClick(),
@@ -42783,7 +42783,7 @@
                     null != c) {
                         const e = document.createElement("button");
                         e.className = "button",
-                        e.innerHTML = '<img class="button-icon" src="images/play.svg"> ',
+                        e.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/play.svg"> ',
                         e.append(document.createTextNode(n.get("Next Track"))),
                         e.addEventListener("click", ( () => {
                             t.playUIClick(),
@@ -42800,7 +42800,7 @@
                 if (s?.multiplayerConnection instanceof Wn) {
                     const e = document.createElement("button");
                     e.className = "button",
-                    e.innerHTML = '<img class="button-icon" src="images/invite.svg"> ',
+                    e.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/invite.svg"> ',
                     e.append(document.createTextNode(n.get("Invite"))),
                     e.addEventListener("click", ( () => {
                         t.playUIClick(),
@@ -42814,7 +42814,7 @@
                 if (null != s) {
                     const e = document.createElement("button");
                     e.className = "button",
-                    e.innerHTML = '<img class="button-icon" src="images/list.svg"> ',
+                    e.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/list.svg"> ',
                     e.append(document.createTextNode(n.get("Players"))),
                     e.addEventListener("click", ( () => {
                         t.playUIClick(),
@@ -42830,7 +42830,7 @@
                 (0,
                 R.gn)(this, Zn, "f").className = "button",
                 (0,
-                R.gn)(this, Zn, "f").innerHTML = '<img class="button-icon" src="images/load.svg"> ',
+                R.gn)(this, Zn, "f").innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/load.svg"> ',
                 (0,
                 R.gn)(this, Zn, "f").append(document.createTextNode(n.get("Change Track"))),
                 (0,
@@ -43564,7 +43564,7 @@
                 (0,
                 R.gn)(this, Oi, "f").className = "button new-code-button",
                 (0,
-                R.gn)(this, Oi, "f").innerHTML = '<img class="button-icon" src="images/refresh.svg"> ',
+                R.gn)(this, Oi, "f").innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/refresh.svg"> ',
                 (0,
                 R.gn)(this, Oi, "f").disabled = !0,
                 (0,
@@ -43585,7 +43585,7 @@
                 R.gn)(this, Ni, "f").appendChild(c);
                 const h = document.createElement("button");
                 h.className = "button",
-                h.innerHTML = '<img class="button-icon" src="images/cancel.svg"> ',
+                h.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/cancel.svg"> ',
                 h.addEventListener("click", ( () => {
                     t.playUIClick(),
                     r()
@@ -43687,7 +43687,7 @@
                 if (null != c)
                     l.src = c;
                 else {
-                    l.src = "images/car_thumbnail_placeholder.png";
+                    l.src = "/GameStack/games/polytrack/images/car_thumbnail_placeholder.png";
                     const e = i.carStyle.serialize();
                     gr.F(i.carStyle, (0,
                     R.gn)(this, lr, "f")).then((t => {
@@ -43707,7 +43707,7 @@
                 if (null != u) {
                     const e = document.createElement("img");
                     e.className = "country-flag",
-                    e.src = "images/countries/" + u.code + ".svg?v=0.6.0-beta1-mp21",
+                    e.src = "/GameStack/games/polytrack/images/countries/" + u.code + ".svg?v=0.6.0-beta1-mp21",
                     e.draggable = !1,
                     e.title = u.name,
                     h.appendChild(e)
@@ -43748,7 +43748,7 @@
                           , t = i.id
                           , n = document.createElement("button");
                         n.className = "button kick-button",
-                        n.innerHTML = '<img class="button-icon" src="images/cancel.svg">',
+                        n.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/cancel.svg">',
                         n.addEventListener("click", ( () => {
                             (0,
                             R.gn)(this, $i, "f").playUIClick(),
@@ -43833,7 +43833,7 @@
                 R.gn)(this, ir, "f").appendChild(o);
                 const l = document.createElement("button");
                 l.className = "button",
-                l.innerHTML = '<img class="button-icon" src="images/cancel.svg"> ',
+                l.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/cancel.svg"> ',
                 l.addEventListener("click", ( () => {
                     t.playUIClick(),
                     s()
@@ -51882,12 +51882,12 @@
             R.gn)(this, Vs, "f").get(P.A.Language) ?? (0,
             R.gn)(this, Is, "f").getSetting(P.A.Language), "f"),
             (0,
-            R.gn)(this, Ds, "f").innerHTML = '<img class="button-icon" src="images/cancel.svg"> ',
+            R.gn)(this, Ds, "f").innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/cancel.svg"> ',
             (0,
             R.gn)(this, Ds, "f").append(document.createTextNode(Ms.getFromLanguage((0,
             R.gn)(this, Os, "f"), "Cancel"))),
             (0,
-            R.gn)(this, Bs, "f").innerHTML = '<img class="button-icon" src="images/reset_settings.svg"> ',
+            R.gn)(this, Bs, "f").innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/reset_settings.svg"> ',
             (0,
             R.gn)(this, Bs, "f").append(document.createTextNode(Ms.getFromLanguage((0,
             R.gn)(this, Os, "f"), "Reset"))),
@@ -51897,7 +51897,7 @@
             R.gn)(this, Gs, "f").append(document.createTextNode(Ms.getFromLanguage((0,
             R.gn)(this, Os, "f"), "Apply"))),
             (0,
-            R.gn)(this, Gs, "f").innerHTML += ' <img class="button-icon" src="images/apply.svg">',
+            R.gn)(this, Gs, "f").innerHTML += ' <img class="button-icon" src="/GameStack/games/polytrack/images/apply.svg">',
             (0,
             R.gn)(this, _s, "m", Qs).call(this)
         }
@@ -52967,7 +52967,7 @@
             c.appendChild(h);
             const d = document.createElement("img");
             d.className = "show",
-            d.src = "images/car_thumbnail_placeholder.png",
+            d.src = "/GameStack/games/polytrack/images/car_thumbnail_placeholder.png",
             h.appendChild(d);
             const u = document.createElement("img");
             gr.F(r, l).then((e => {
@@ -52979,7 +52979,7 @@
             h.appendChild(u);
             const p = document.createElement("img");
             p.className = "checkmark",
-            p.src = "images/checkmark.svg",
+            p.src = "/GameStack/games/polytrack/images/checkmark.svg",
             c.appendChild(p);
             const f = document.createElement("div");
             f.className = "left",
@@ -53006,7 +53006,7 @@
             if (null != b) {
                 const e = document.createElement("img");
                 e.className = "country-flag",
-                e.src = "images/countries/" + b.code + ".svg?v=0.6.0-beta1-mp21",
+                e.src = "/GameStack/games/polytrack/images/countries/" + b.code + ".svg?v=0.6.0-beta1-mp21",
                 e.draggable = !1,
                 e.title = b.name,
                 y.appendChild(e)
@@ -53023,16 +53023,16 @@
                 y.appendChild(e)
             }
             const S = document.createElement("p");
-            a == Bo.Y.Pending ? (S.innerHTML = '<img src="images/state_pending.svg">',
+            a == Bo.Y.Pending ? (S.innerHTML = '<img src="/GameStack/games/polytrack/images/state_pending.svg">',
             S.prepend(document.createTextNode((0,
             R.gn)(this, ho, "f").get("Pending"))),
-            S.className = "verified-state pending") : a == Bo.Y.Verified ? (S.innerHTML = '<img src="images/state_verified.svg">',
+            S.className = "verified-state pending") : a == Bo.Y.Verified ? (S.innerHTML = '<img src="/GameStack/games/polytrack/images/state_verified.svg">',
             S.prepend(document.createTextNode((0,
             R.gn)(this, ho, "f").get("Verified"))),
-            S.className = "verified-state verified") : a == Bo.Y.InvalidDuplicate ? (S.innerHTML = '<img src="images/state_invalid.svg">',
+            S.className = "verified-state verified") : a == Bo.Y.InvalidDuplicate ? (S.innerHTML = '<img src="/GameStack/games/polytrack/images/state_invalid.svg">',
             S.prepend(document.createTextNode((0,
             R.gn)(this, ho, "f").get("Duplicate"))),
-            S.className = "verified-state invalid") : (S.innerHTML = '<img src="images/state_invalid.svg">',
+            S.className = "verified-state invalid") : (S.innerHTML = '<img src="/GameStack/games/polytrack/images/state_invalid.svg">',
             S.prepend(document.createTextNode((0,
             R.gn)(this, ho, "f").get("Invalid"))),
             S.className = "verified-state invalid"),
@@ -53212,7 +53212,7 @@
                 R.gn)(this, yo, "f").appendChild(g);
                 const m = document.createElement("button");
                 m.className = "button back",
-                m.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
+                m.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/back.svg"> ',
                 m.append(document.createTextNode(n.get("Back"))),
                 m.addEventListener("click", ( () => {
                     r.playUIClick(),
@@ -53228,7 +53228,7 @@
                 (0,
                 R.gn)(this, So, "f").className = "button icon-button first",
                 (0,
-                R.gn)(this, So, "f").innerHTML = '<img class="button-icon" src="images/pin.svg">',
+                R.gn)(this, So, "f").innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/pin.svg">',
                 (0,
                 R.gn)(this, So, "f").disabled = !0,
                 (0,
@@ -53259,7 +53259,7 @@
                 R.gn)(this, Eo, "f").textContent = (0,
                 R.gn)(this, ho, "f").get("Only verified"),
                 (0,
-                R.gn)(this, Eo, "f").innerHTML += '<img class="button-icon" src="images/verified.svg">',
+                R.gn)(this, Eo, "f").innerHTML += '<img class="button-icon" src="/GameStack/games/polytrack/images/verified.svg">',
                 (0,
                 R.gn)(this, Eo, "f").addEventListener("click", ( () => {
                     r.playUIClick(),
@@ -53326,7 +53326,7 @@
             (0,
             R.gn)(this, Zo, "f").innerHTML = "";
             const n = document.createElement("div");
-            n.innerHTML = '<img src="images/timer.svg">';
+            n.innerHTML = '<img src="/GameStack/games/polytrack/images/timer.svg">';
             const i = document.createElement("span");
             null == e && (i.className = "faded"),
             i.textContent = He.A.formatTimeString(e),
@@ -53334,7 +53334,7 @@
             (0,
             R.gn)(this, Zo, "f").appendChild(n);
             const r = document.createElement("div");
-            if (r.innerHTML = '<img src="images/trophy.svg">',
+            if (r.innerHTML = '<img src="/GameStack/games/polytrack/images/trophy.svg">',
             null != t) {
                 r.appendChild(document.createTextNode(qe(t.position)));
                 const e = t.position / t.total * 100;
@@ -53475,9 +53475,9 @@
                         try {
                             n = localStorage.getItem("pt_thumb_" + Pt.rE + "_" + h)
                         } catch {}
-                        e.src = null != d && "null" != d ? d : n || "images/preview.svg",
+                        e.src = null != d && "null" != d ? d : n || "/GameStack/games/polytrack/images/preview.svg",
                         w.appendChild(e),
-                        (null == d || "null" == d || "images/preview.svg" == d) && null == n && (async () => {
+                        (null == d || "null" == d || "/GameStack/games/polytrack/images/preview.svg" == d) && null == n && (async () => {
                             try {
                                 let t;
                                 if (t = c instanceof Function ? await c() : c,
@@ -53511,7 +53511,7 @@
                 const b = document.createElement("button");
                 let x;
                 switch (b.className = "button share",
-                b.innerHTML = '<img src="images/share.svg">',
+                b.innerHTML = '<img src="/GameStack/games/polytrack/images/share.svg">',
                 b.addEventListener("click", ( () => {
                     a.playUIClick(),
                     (0,
@@ -53553,13 +53553,13 @@
                 w.appendChild(b),
                 l) {
                 case hl.A.Summer:
-                    x = "images/summer.svg";
+                    x = "/GameStack/games/polytrack/images/summer.svg";
                     break;
                 case hl.A.Winter:
-                    x = "images/winter.svg";
+                    x = "/GameStack/games/polytrack/images/winter.svg";
                     break;
                 case hl.A.Desert:
-                    x = "images/desert.svg"
+                    x = "/GameStack/games/polytrack/images/desert.svg"
                 }
                 const S = document.createElement("img");
                 S.className = "environment",
@@ -53627,7 +53627,7 @@
                 (0,
                 R.gn)(this, el, "f").className = "button watch",
                 (0,
-                R.gn)(this, el, "f").innerHTML = '<img src="images/preview.svg">',
+                R.gn)(this, el, "f").innerHTML = '<img src="/GameStack/games/polytrack/images/preview.svg">',
                 (0,
                 R.gn)(this, el, "f").disabled = !0,
                 (0,
@@ -53673,7 +53673,7 @@
                 R.gn)(this, Vo, "m", ll).call(this);
                 const L = document.createElement("button");
                 L.className = "button play",
-                L.innerHTML = '<img src="images/play.svg">',
+                L.innerHTML = '<img src="/GameStack/games/polytrack/images/play.svg">',
                 L.prepend(document.createTextNode(t.get("Play"))),
                 L.addEventListener("click", ( () => {
                     a.playUIClick();
@@ -54748,7 +54748,7 @@
             t.appendChild(l);
             const c = document.createElement("button");
             c.className = "button",
-            c.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
+            c.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/back.svg"> ',
             c.append(document.createTextNode((0,
             R.gn)(this, Yl, "f").get("Back"))),
             c.addEventListener("click", ( () => {
@@ -54777,7 +54777,7 @@
             l.appendChild(h);
             const d = document.createElement("button");
             d.className = "button join",
-            d.innerHTML = '<img class="button-icon" src="images/play.svg"> ',
+            d.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/play.svg"> ',
             d.prepend(document.createTextNode((0,
             R.gn)(this, Yl, "f").get("Join"))),
             d.disabled = !0,
@@ -54996,7 +54996,7 @@
             t.appendChild(f);
             const g = document.createElement("img");
             g.className = "thumbnail",
-            g.src = "images/empty.svg",
+            g.src = "/GameStack/games/polytrack/images/empty.svg",
             f.appendChild(g);
             const m = document.createElement("div");
             m.className = "name placeholder",
@@ -55081,7 +55081,7 @@
             t.appendChild(v);
             const y = document.createElement("button");
             y.className = "button",
-            y.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
+            y.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/back.svg"> ',
             y.append(document.createTextNode((0,
             R.gn)(this, Yl, "f").get("Back"))),
             y.addEventListener("click", ( () => {
@@ -55559,7 +55559,7 @@
             R.GG)(this, Jc, [], "f");
             const v = document.createElement("button");
             v.className = "button button-image",
-            v.innerHTML = '<img src="images/customize.svg">',
+            v.innerHTML = '<img src="/GameStack/games/polytrack/images/customize.svg">',
             v.addEventListener("click", ( () => {
                 n.playUIClick(),
                 u()
@@ -55574,7 +55574,7 @@
             R.gn)(this, qc, "f").push(v);
             const w = document.createElement("button");
             w.className = "button button-image",
-            w.innerHTML = '<img src="images/editor.svg">',
+            w.innerHTML = '<img src="/GameStack/games/polytrack/images/editor.svg">',
             w.addEventListener("click", ( () => {
                 n.playUIClick(),
                 p()
@@ -55589,7 +55589,7 @@
             R.gn)(this, qc, "f").push(w);
             const x = document.createElement("button");
             x.className = "button button-image",
-            x.innerHTML = '<img src="images/settings.svg">',
+            x.innerHTML = '<img src="/GameStack/games/polytrack/images/settings.svg">',
             x.addEventListener("click", ( () => {
                 n.playUIClick(),
                 (0,
@@ -55629,7 +55629,7 @@
             R.gn)(this, qc, "f").push(x);
             const E = document.createElement("button");
             E.className = "button button-image",
-            E.innerHTML = '<img src="images/multiplayer.svg">',
+            E.innerHTML = '<img src="/GameStack/games/polytrack/images/multiplayer.svg">',
             E.addEventListener("click", ( () => {
                 n.playUIClick(),
                 (0,
@@ -55668,7 +55668,7 @@
             R.gn)(this, qc, "f").push(E);
             const k = document.createElement("button");
             k.className = "button button-image",
-            k.innerHTML = '<img src="images/play.svg">',
+            k.innerHTML = '<img src="/GameStack/games/polytrack/images/play.svg">',
             k.addEventListener("click", ( () => {
                 n.playUIClick(),
                 (0,
@@ -55689,7 +55689,7 @@
             window.electron) {
                 const e = document.createElement("button");
                 e.className = "button",
-                e.innerHTML = '<img src="images/quit.svg">',
+                e.innerHTML = '<img src="/GameStack/games/polytrack/images/quit.svg">',
                 e.appendChild(document.createTextNode(" " + t.get("Quit"))),
                 e.addEventListener("click", ( () => {
                     n.playUIClick(),
@@ -55704,16 +55704,16 @@
             if (Pt.Ko) {
                 const e = document.createElement("button");
                 e.className = "button",
-                i.isFullscreen ? (e.innerHTML = '<img src="images/windowed.svg">',
-                e.appendChild(document.createTextNode(" " + t.get("Windowed")))) : (e.innerHTML = '<img src="images/fullscreen.svg">',
+                i.isFullscreen ? (e.innerHTML = '<img src="/GameStack/games/polytrack/images/windowed.svg">',
+                e.appendChild(document.createTextNode(" " + t.get("Windowed")))) : (e.innerHTML = '<img src="/GameStack/games/polytrack/images/fullscreen.svg">',
                 e.appendChild(document.createTextNode(" " + t.get("Fullscreen")))),
                 null != (0,
                 R.gn)(this, $c, "f") && i.removeFullscreenChangeListener((0,
                 R.gn)(this, $c, "f")),
                 i.addFullscreenChangeListener((0,
                 R.GG)(this, $c, ( () => {
-                    i.isFullscreen ? (e.innerHTML = '<img src="images/windowed.svg">',
-                    e.appendChild(document.createTextNode(" " + t.get("Windowed")))) : (e.innerHTML = '<img src="images/fullscreen.svg">',
+                    i.isFullscreen ? (e.innerHTML = '<img src="/GameStack/games/polytrack/images/windowed.svg">',
+                    e.appendChild(document.createTextNode(" " + t.get("Windowed")))) : (e.innerHTML = '<img src="/GameStack/games/polytrack/images/fullscreen.svg">',
                     e.appendChild(document.createTextNode(" " + t.get("Fullscreen"))))
                 }
                 ), "f")),
@@ -55733,9 +55733,9 @@
             const _ = () => {
                 (0,
                 R.gn)(this, Xc, "f") ? (C.classList.remove("disabled"),
-                C.innerHTML = '<img className="button-icon" src="images/music_on.svg">',
+                C.innerHTML = '<img className="button-icon" src="/GameStack/games/polytrack/images/music_on.svg">',
                 C.appendChild(document.createTextNode(" " + t.get("Music: On")))) : (C.classList.add("disabled"),
-                C.innerHTML = '<img className="button-icon" src="images/music_off.svg">',
+                C.innerHTML = '<img className="button-icon" src="/GameStack/games/polytrack/images/music_off.svg">',
                 C.appendChild(document.createTextNode(" " + t.get("Music: Off"))))
             }
               , C = document.createElement("button");
@@ -55927,7 +55927,7 @@
                 }
                 ))),
                 (0,
-                R.gn)(this, zc, "f").src = "images/logo.svg",
+                R.gn)(this, zc, "f").src = "/GameStack/games/polytrack/images/logo.svg",
                 (0,
                 R.gn)(this, Nc, "f").appendChild((0,
                 R.gn)(this, zc, "f")),
@@ -55960,7 +55960,7 @@
                         e.classList.remove("hidden")
                     }
                     ))),
-                    e.src = "images/discord.svg",
+                    e.src = "/GameStack/games/polytrack/images/discord.svg",
                     (0,
                     R.gn)(this, Uc, "f").appendChild(e)
                 } else
@@ -58000,7 +58000,7 @@
                 (0,
                 R.GG)(this, Nd, t, "f"),
                 n.addResource();
-                const i = (new C.Tap).load("images/clouds.jpg", ( () => {
+                const i = (new C.Tap).load("/GameStack/games/polytrack/images/clouds.jpg", ( () => {
                     n.loadedResource()
                 }
                 ));
@@ -61036,7 +61036,7 @@
                 (0,
                 R.gn)(this, Xu, "f").className = "arrow-up",
                 (0,
-                R.gn)(this, Xu, "f").innerHTML = '<img src="images/arrow_up.svg">',
+                R.gn)(this, Xu, "f").innerHTML = '<img src="/GameStack/games/polytrack/images/arrow_up.svg">',
                 (0,
                 R.gn)(this, Ju, "f").appendChild((0,
                 R.gn)(this, Xu, "f")),
@@ -61045,7 +61045,7 @@
                 (0,
                 R.gn)(this, Yu, "f").className = "arrow-right",
                 (0,
-                R.gn)(this, Yu, "f").innerHTML = '<img src="images/arrow_right.svg">',
+                R.gn)(this, Yu, "f").innerHTML = '<img src="/GameStack/games/polytrack/images/arrow_right.svg">',
                 (0,
                 R.gn)(this, Ju, "f").appendChild((0,
                 R.gn)(this, Yu, "f")),
@@ -61054,7 +61054,7 @@
                 (0,
                 R.gn)(this, Zu, "f").className = "arrow-down",
                 (0,
-                R.gn)(this, Zu, "f").innerHTML = '<img src="images/arrow_down.svg">',
+                R.gn)(this, Zu, "f").innerHTML = '<img src="/GameStack/games/polytrack/images/arrow_down.svg">',
                 (0,
                 R.gn)(this, Ju, "f").appendChild((0,
                 R.gn)(this, Zu, "f")),
@@ -61063,7 +61063,7 @@
                 (0,
                 R.gn)(this, $u, "f").className = "arrow-left",
                 (0,
-                R.gn)(this, $u, "f").innerHTML = '<img src="images/arrow_left.svg">',
+                R.gn)(this, $u, "f").innerHTML = '<img src="/GameStack/games/polytrack/images/arrow_left.svg">',
                 (0,
                 R.gn)(this, Ju, "f").appendChild((0,
                 R.gn)(this, $u, "f"))
@@ -61216,10 +61216,10 @@
             R.gn)(this, lp, "f").disabled = !0),
             (0,
             R.gn)(this, mp, "f") ? (0,
-            R.gn)(this, cp, "f").innerHTML = '<img src="images/reset.svg">' : (0,
+            R.gn)(this, cp, "f").innerHTML = '<img src="/GameStack/games/polytrack/images/reset.svg">' : (0,
             R.gn)(this, fp, "f") ? (0,
-            R.gn)(this, cp, "f").innerHTML = '<img src="images/play.svg">' : (0,
-            R.gn)(this, cp, "f").innerHTML = '<img src="images/pause.svg">'
+            R.gn)(this, cp, "f").innerHTML = '<img src="/GameStack/games/polytrack/images/play.svg">' : (0,
+            R.gn)(this, cp, "f").innerHTML = '<img src="/GameStack/games/polytrack/images/pause.svg">'
         }
         ,
         Ip = function() {
@@ -61302,7 +61302,7 @@
                 (0,
                 R.gn)(this, op, "f").className = "button",
                 (0,
-                R.gn)(this, op, "f").innerHTML = '<img src="images/step_back.svg">',
+                R.gn)(this, op, "f").innerHTML = '<img src="/GameStack/games/polytrack/images/step_back.svg">',
                 (0,
                 R.gn)(this, op, "f").addEventListener("pointerdown", (e => {
                     if (0 == e.button) {
@@ -61327,7 +61327,7 @@
                 (0,
                 R.gn)(this, lp, "f").className = "button",
                 (0,
-                R.gn)(this, lp, "f").innerHTML = '<img src="images/step_forward.svg">',
+                R.gn)(this, lp, "f").innerHTML = '<img src="/GameStack/games/polytrack/images/step_forward.svg">',
                 (0,
                 R.gn)(this, lp, "f").addEventListener("pointerdown", (e => {
                     if (0 == e.button) {
@@ -61529,7 +61529,7 @@
                 R.gn)(this, Dp, "f").className = "preview-toolbar-ui";
                 const s = document.createElement("button");
                 s.className = "button",
-                s.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
+                s.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/back.svg"> ',
                 s.append(document.createTextNode(n.get("Back"))),
                 s.addEventListener("click", ( () => {
                     t.playUIClick(),
@@ -61540,7 +61540,7 @@
                 R.gn)(this, Dp, "f").appendChild(s);
                 const o = document.createElement("button");
                 if (o.className = "button",
-                o.innerHTML = '<img class="button-icon" src="images/graph.svg"> ',
+                o.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/graph.svg"> ',
                 o.append(document.createTextNode(n.get("Graphs"))),
                 o.addEventListener("click", ( () => {
                     t.playUIClick(),
@@ -61552,7 +61552,7 @@
                 null != a) {
                     const e = document.createElement("button");
                     e.className = "button",
-                    e.innerHTML = '<img class="button-icon" src="images/customize.svg"> ',
+                    e.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/customize.svg"> ',
                     e.append(document.createTextNode(n.get("Switch car"))),
                     e.addEventListener("click", ( () => {
                         t.playUIClick(),
@@ -62082,7 +62082,7 @@
                 R.gn)(this, Vp, "f").appendChild(m);
                 const A = document.createElement("button");
                 A.className = "button",
-                A.innerHTML = '<img class="button-icon" src="images/cancel.svg">',
+                A.innerHTML = '<img class="button-icon" src="/GameStack/games/polytrack/images/cancel.svg">',
                 A.appendChild(document.createTextNode(" " + n.get("Close"))),
                 A.addEventListener("click", ( () => {
                     t.playUIClick(),
@@ -63110,7 +63110,7 @@
             ));
             const a = i(7780);
             for (const e of a.keys())
-                t.preloadImage("images/" + e.substring(2));
+                t.preloadImage("/GameStack/games/polytrack/images/" + e.substring(2));
             const s = new Iu
               , o = new Ld(s)
               , l = new L(t,r);
