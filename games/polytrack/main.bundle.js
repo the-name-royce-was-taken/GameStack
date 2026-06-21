@@ -8845,9 +8845,9 @@
                     const e = await new Promise(( (e, t) => {
                         const n = new d.B
                           , i = new h.Z;
-                        i.setDecoderPath("./lib/draco/"),
+                        i.setDecoderPath("lib/draco/"),
                         n.setDRACOLoader(i),
-                        n.load("./models/car.glb", (n => {
+                        n.load("models/car.glb", (n => {
                             function r(e, t) {
                                 const i = n.scene.getObjectByName(e);
                                 if (null == i)
@@ -56687,7 +56687,7 @@
         id = new WeakSet,
         hd = function(e, t) {
             return (0,
-            R.gn)(this, id, "m", dd).call(this, "./tracks/official/" + e, t)
+            R.gn)(this, id, "m", dd).call(this, "tracks/official/" + e, t)
         }
         ,
         dd = function(e, t) {
@@ -56804,7 +56804,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Winter,
-                    trackUrl: "./tracks/community/zealot.track",
+                    trackUrl: "tracks/community/zealot.track",
                     thumbnail: null
                 }, {
                     id: "8cf0dc61eeb567dd9712716cb25ff7354d79057d5d73475627978b04a73079b2",
@@ -56815,7 +56815,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Desert,
-                    trackUrl: "./tracks/community/shrouded_oasis.track",
+                    trackUrl: "tracks/community/shrouded_oasis.track",
                     thumbnail: null
                 }, {
                     id: "5cb2632887d30339e5f1a0d8c153446a2bca80a01c12937dc0d873d2f8fe25d9",
@@ -56826,7 +56826,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Summer,
-                    trackUrl: "./tracks/community/cogware.track",
+                    trackUrl: "tracks/community/cogware.track",
                     thumbnail: null
                 }, {
                     id: "5108622d3970e815bbb6e1879322c9c10f0f18827d6842c30de6a651b28435b0",
@@ -56837,7 +56837,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Summer,
-                    trackUrl: "./tracks/community/land_of_the_rising_sun.track",
+                    trackUrl: "tracks/community/land_of_the_rising_sun.track",
                     thumbnail: null
                 }, {
                     id: "a2a28e4270745b6a7cc3d53cff44dc6d9322c377cda6dd79e91dcb51d83574f4",
@@ -56848,7 +56848,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Desert,
-                    trackUrl: "./tracks/community/midas_metropolis.track",
+                    trackUrl: "tracks/community/midas_metropolis.track",
                     thumbnail: null
                 }, {
                     id: "fde3e9eb977892f7cd73d5c91c7a0e8c45ecd08fba57ec375fac7d344fd739a8",
@@ -56859,7 +56859,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Winter,
-                    trackUrl: "./tracks/community/frozen_in_time.track",
+                    trackUrl: "tracks/community/frozen_in_time.track",
                     thumbnail: null
                 }, {
                     id: "35ae4ced2b8636d0e66bb00555c68256e2ab305086b409afc7033d426aa70f31",
@@ -56870,7 +56870,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Winter,
-                    trackUrl: "./tracks/community/winterfell.track",
+                    trackUrl: "tracks/community/winterfell.track",
                     thumbnail: null
                 }, {
                     id: "1511c30262cfdb843bf2cdaa24410f206e7fc8dc2d9adc3086e76c03588c407d",
@@ -56881,7 +56881,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Summer,
-                    trackUrl: "./tracks/community/launch_control.track",
+                    trackUrl: "tracks/community/launch_control.track",
                     thumbnail: null
                 }, {
                     id: "b78ca6b505a2b5b1918e04136386cc3e6d42a0a9445c8ad81fb284381e44cbce",
@@ -56892,7 +56892,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Summer,
-                    trackUrl: "./tracks/community/fractured_shore.track",
+                    trackUrl: "tracks/community/fractured_shore.track",
                     thumbnail: null
                 }, {
                     id: "dd08999f8caa748f757602cfc12c6d3e8ac1098322f59d5ccaa152861c426ecd",
@@ -56903,7 +56903,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Desert,
-                    trackUrl: "./tracks/community/starry_tropics.track",
+                    trackUrl: "tracks/community/starry_tropics.track",
                     thumbnail: null
                 }, {
                     id: "9cebf16e89693917ce7b10efd2c520336da5011550d7dbd413cfddcce79bdfd1",
@@ -56914,7 +56914,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Desert,
-                    trackUrl: "./tracks/community/anubis.track",
+                    trackUrl: "tracks/community/anubis.track",
                     thumbnail: null
                 }, {
                     id: "984bb1361ed45e000120aa0199f6f1ef21d5f6482f76c948df369758ac47f7e8",
@@ -56925,7 +56925,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Summer,
-                    trackUrl: "./tracks/community/flying_dreams.track",
+                    trackUrl: "tracks/community/flying_dreams.track",
                     thumbnail: null
                 }, {
                     id: "18b69f54f119cfb2867abded9a1574f0799a750ef94aa744d9ec8ef6b4d565ae",
@@ -56936,7 +56936,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Summer,
-                    trackUrl: "./tracks/community/ghost_city.track",
+                    trackUrl: "tracks/community/ghost_city.track",
                     thumbnail: null
                 }, {
                     id: "196c21056a3fee8c5ffe4ada12a3f0a16d33653c329f8f3ee5b12bc8ab60e7bf",
@@ -56947,7 +56947,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Desert,
-                    trackUrl: "./tracks/community/joenail_jones.track",
+                    trackUrl: "tracks/community/joenail_jones.track",
                     thumbnail: null
                 }, {
                     id: "5ea46b3ae268a0196dcc59dabe88926400b56e29814658bfed06a284f837cefd",
@@ -56958,7 +56958,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Summer,
-                    trackUrl: "./tracks/community/mos_espa.track",
+                    trackUrl: "tracks/community/mos_espa.track",
                     thumbnail: null
                 }, {
                     id: "3555bcdff2897c3efe2f4fb0274a26de6a771cab2071a23cdd46729e426169ae",
@@ -56969,7 +56969,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Summer,
-                    trackUrl: "./tracks/community/natsujo.track",
+                    trackUrl: "tracks/community/natsujo.track",
                     thumbnail: null
                 }, {
                     id: "27769dfe4d9e874a4ee6ba2f9f6c073462fcaf38207902be769e1039c3fe589e",
@@ -56980,7 +56980,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Desert,
-                    trackUrl: "./tracks/community/arabica.track",
+                    trackUrl: "tracks/community/arabica.track",
                     thumbnail: null
                 }, {
                     id: "5abca81bb3d11673df57a855dc625d4d5a36bab44c5ba254830c50499a133617",
@@ -56991,7 +56991,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Winter,
-                    trackUrl: "./tracks/community/hyperions_sanctuary.track",
+                    trackUrl: "tracks/community/hyperions_sanctuary.track",
                     thumbnail: null
                 }, {
                     id: "3f1ba0fb066b927cc248c027e4c9441572bafc19777b96b718a79cb8352f07b4",
@@ -57002,7 +57002,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Winter,
-                    trackUrl: "./tracks/community/winter_hollow.track",
+                    trackUrl: "tracks/community/winter_hollow.track",
                     thumbnail: null
                 }, {
                     id: "e4fbe837eb36d12902fedbabb2e94b58e396b84112cdaafdd3dfbf8ba2792cff",
@@ -57013,7 +57013,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Desert,
-                    trackUrl: "./tracks/community/clay_temples.track",
+                    trackUrl: "tracks/community/clay_temples.track",
                     thumbnail: null
                 }, {
                     id: "cf35f7dd07551566a80246b7b0d0b1a67b498f2b2961d4e97f315a50416f56f1",
@@ -57024,7 +57024,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Desert,
-                    trackUrl: "./tracks/community/las_calles.track",
+                    trackUrl: "tracks/community/las_calles.track",
                     thumbnail: null
                 }, {
                     id: "e5ebb09e9dda02b2825f74bd72aa088317d71ef00eab4eb8c65daeeb365e6908",
@@ -57035,7 +57035,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Desert,
-                    trackUrl: "./tracks/community/desert_stallion.track",
+                    trackUrl: "tracks/community/desert_stallion.track",
                     thumbnail: null
                 }, {
                     id: "2f63f195d9adfba060ebeb49d7c159230923a94b3ad580442e0c678cb51cbf84",
@@ -57046,7 +57046,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Desert,
-                    trackUrl: "./tracks/community/last_remnant.track",
+                    trackUrl: "tracks/community/last_remnant.track",
                     thumbnail: null
                 }, {
                     id: "fbb937cb7a1a581292e3676fedcfea5e5eb49d09e2a4d154fe27542be3077b6e",
@@ -57057,7 +57057,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Summer,
-                    trackUrl: "./tracks/community/lu_muvimento.track",
+                    trackUrl: "tracks/community/lu_muvimento.track",
                     thumbnail: null
                 }, {
                     id: "948464b463691149b165b794925f3de09810d758a441546925dffc3611f1d757",
@@ -57068,7 +57068,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Summer,
-                    trackUrl: "./tracks/community/90_reset.track",
+                    trackUrl: "tracks/community/90_reset.track",
                     thumbnail: null
                 }, {
                     id: "00d39d287da724b1c6b69eab85379f44ee4ae2fc0876343666b944cf4c3156e5",
@@ -57079,7 +57079,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Summer,
-                    trackUrl: "./tracks/community/re_akina.track",
+                    trackUrl: "tracks/community/re_akina.track",
                     thumbnail: null
                 }, {
                     id: "fe72c501e18caa8e3160b3ff76cb7670cfb8845b1ec116c2e694896c44f93565",
@@ -57090,7 +57090,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Desert,
-                    trackUrl: "./tracks/community/sandline_ultimatum.track",
+                    trackUrl: "tracks/community/sandline_ultimatum.track",
                     thumbnail: null
                 }, {
                     id: "e14ecd4a2936f9188a4e260ed6535a890180a7c958c709d7a199e683d857abcc",
@@ -57101,7 +57101,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Desert,
-                    trackUrl: "./tracks/community/malformations.track",
+                    trackUrl: "tracks/community/malformations.track",
                     thumbnail: null
                 }, {
                     id: "acefe12fd25200734664bf913e6da49e961f08b846bb3f8577f2a561ba979e94",
@@ -57112,7 +57112,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Winter,
-                    trackUrl: "./tracks/community/snow_park.track",
+                    trackUrl: "tracks/community/snow_park.track",
                     thumbnail: null
                 }, {
                     id: "d03249a253d1e6bd9098bd8ddc23439ac57c2f6ee5e592fec0e75f3a9f430380",
@@ -57123,7 +57123,7 @@
                         lastModified: null
                     },
                     environment: hl.A.Summer,
-                    trackUrl: "./tracks/community/concrete_jungle.track",
+                    trackUrl: "tracks/community/concrete_jungle.track",
                     thumbnail: null
                 }].map((e => ({
                     id: e.id,
@@ -57204,7 +57204,7 @@
                 }))), "f");
                 try {
                     const e = "undefined" != typeof globalThis ? globalThis : window
-                      , t = ["./tracks/community/asguardia.track", "./tracks/community/opal_place_ii.track", "./tracks/community/Nurenburgring_GP.track", "././tracks/community/alpine_descent.track", "./tracks/community/japan.track", "./tracks/community/natures_sanctuary.track", "./tracks/community/oxygen_not_included.track", "./tracks/community/pavlova_dip.track"];
+                      , t = ["tracks/community/asguardia.track", "tracks/community/opal_place_ii.track", "tracks/community/Nurenburgring_GP.track", "tracks/community/alpine_descent.track", "tracks/community/japan.track", "tracks/community/natures_sanctuary.track", "tracks/community/oxygen_not_included.track", "tracks/community/pavlova_dip.track"];
                     Promise.all(t.map((t => (0,
                     R.gn)(this, id, "m", ud).call(this, t).then((n => ({
                         trackUrl: t,
@@ -57495,9 +57495,9 @@
             async init(e, t) {
                 const n = new ie.B
                   , i = new bd.Z;
-                i.setDecoderPath("./lib/draco/"),
+                i.setDecoderPath("lib/draco/"),
                 n.setDRACOLoader(i);
-                const r = (a = ["./models/blocks.glb", "./models/pillar.glb", "./models/planes.glb", "./models/road.glb", "./models/road_wide.glb", "./models/signs.glb", "./models/wall_track.glb"],
+                const r = (a = ["models/blocks.glb", "models/pillar.glb", "models/planes.glb", "models/road.glb", "models/road_wide.glb", "models/signs.glb", "models/wall_track.glb"],
                 Promise.all(a.map((e => {
                     return t = e,
                     new Promise((e => {
@@ -63110,21 +63110,21 @@
             ));
             const a = i(7780);
             for (const e of a.keys())
-                t.preloadImage("./images/" + e.substring(2));
+                t.preloadImage("images/" + e.substring(2));
             const s = new Iu
               , o = new Ld(s)
               , l = new L(t,r);
-            l.load("music", ["./audio/music.ogg", "./audio/music.mp3"]),
-            l.load("click", ["./audio/click.ogg", "./audio/click.mp3"]),
-            l.load("engine", ["./audio/engine.ogg", "./audio/engine.mp3"]),
-            l.load("suspension", ["./audio/suspension.ogg", "./audio/suspension.mp3"]),
-            l.load("tires", ["./audio/tires.ogg", "./audio/tires.mp3"]),
-            l.load("collision", ["./audio/collision.ogg", "./audio/collision.mp3"]),
-            l.load("skidding", ["./audio/skidding.ogg", "./audio/skidding.mp3"]),
-            l.load("editor_edit", ["./audio/editor_edit.ogg", "./audio/editor_edit.mp3"]),
-            l.load("checkpoint", ["./audio/checkpoint.ogg", "./audio/checkpoint.mp3"]),
-            l.load("record", ["./audio/record.ogg", "./audio/record.mp3"]),
-            l.load("position_tick", ["./audio/position_tick.ogg", "./audio/position_tick.mp3"]),
+            l.load("music", ["./audio/music.ogg", "audio/music.mp3"]),
+            l.load("click", ["./audio/click.ogg", "audio/click.mp3"]),
+            l.load("engine", ["./audio/engine.ogg", "audio/engine.mp3"]),
+            l.load("suspension", ["./audio/suspension.ogg", "audio/suspension.mp3"]),
+            l.load("tires", ["./audio/tires.ogg", "audio/tires.mp3"]),
+            l.load("collision", ["./audio/collision.ogg", "audio/collision.mp3"]),
+            l.load("skidding", ["./audio/skidding.ogg", "audio/skidding.mp3"]),
+            l.load("editor_edit", ["./audio/editor_edit.ogg", "audio/editor_edit.mp3"]),
+            l.load("checkpoint", ["./audio/checkpoint.ogg", "audio/checkpoint.mp3"]),
+            l.load("record", ["./audio/record.ogg", "audio/record.mp3"]),
+            l.load("position_tick", ["./audio/position_tick.ogg", "audio/position_tick.mp3"]),
             "capacitor" == Pt.aC && (m.addListener("appStateChange", (e => {
                 l.isAppActive = e.isActive
             }
